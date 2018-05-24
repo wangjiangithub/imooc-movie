@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- <link rel="" href="https://zhidao.baidu.com/favicon.ico" type="image/x-icon"> -->
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="bookmark" href="favicon.ico"/>
+<!-- 	<script type="text/javascript">
+	// var w = window.open("1.html", 'small',"top=440, left=390,width=222, height=333");
+	// w.moveTo(0,0)
+	// 	function gaunbi(){
+	// 		w.close();
+	// 	}
+	</script> -->
+</head>
+<body>
+	<!-- <bdo dir='rtl'>我是小狗<bdi>我是小狗</bdi>我是&amp;&amp;&amp;&uuml;&Uuml;小狗</bdo>
+	<iframe src="http://news.baidu.com/" width="300" height="300"></iframe>
+	<a href="1.html#here" target="_blank">ssssssss</a>
+	<img src="1.png" usemap="#map">
+	<map name='map'>
+		<area shape="rect" coords="0,0,50,50" href="1.html">
+		<area shape="circle" coords="75,75,75" href="1.html">
+		
+	</map>
+ -->
+	<!-- <script type="text/javascript">
+	
+
+
+		// var a = 42,
+		//     b = 24;
+		// function max(c,d){
+		// 	return c > d ? c : d;
+		// }
+		// function print(s){
+		// 	document.write(s)
+		// }
+		// function println(s){
+		// 	print(s+'<br/>')
+		// }
+
+		// function add(e,t){
+		// 	return e+t;
+		// }
+		// function cal(f,e,t){
+		// 	return f(e,t)
+		// }
+
+		// function gcd(a,b){
+		// 	var u = a;
+		// 	var v =b;
+		// 	var temp = b;
+		// 	while(b!=0){
+		// 		temp = a%b;
+		// 		a = b;
+		// 		b = temp;
+		// 	}
+		// 	// alert(u+'和'+v+'的最大公约数是：'+ a)
+		// 	// print(u+'和'+v+'的最大公约数是：'+ a+'<br/>')
+		// 	return a;
+
+		// }
+		
+		// println(max(42,33))
+		// println(a+'和'+b+'的最大公约数是：'+gcd(42,24))
+		// println(5+'和'+6+'的和是：'+cal(add,5,6))
+
+
+
+
+
+		// function Rect(w,h){
+		// 	this.width=w;
+		// 	this.height=h;
+		// 	this.area = function(){
+		// 		return this.width*this.height;
+		// 	}
+		// }
+
+		// var r = new Rect(5,10)
+		// alert(r.area())
+
+
+		// function Person(){}
+		// Person.prototype.name = 'wangjian';
+		// Person.prototype.age = 27;
+		// Person.prototype.job = 'programer';
+		// Person.prototype.sayName = function(){
+		// 	alert(this.name)
+		// }
+		
+		// var p1 = new Person();
+		// var p2 = new Person();
+		// p1.name='hhahah';
+		// p1.sayName(); //hhahah
+		// p2.sayName(); //wangjian
+
+
+
+		// function Person(){}
+		// Person.prototype = {
+		// 	constructor : Person,
+		// 	name : 'wangjian',
+		// 	age : 27,
+		// 	job : 'programer',
+		// 	friends : ['li','zhang'],
+		// 	sayFriends : function(){
+		// 		alert(this.friends)
+		// 	}
+
+		// }
+		// var p1 = new Person();
+		// var p2 = new Person();
+		// p1.friends.push('zhaoyihan')		
+		// p1.sayFriends();  //li,zhang,zhaoyihan
+		// p2.sayFriends();  //li,zhang,zhaoyihan
+
+
+		// 组合原型和构造方法
+		// function Person(name,age,job){
+		// 	this.name = name;
+		// 	this.age = age;
+		// 	this.job = job;
+		// 	this.friends = ['li','zhang']
+		// }
+		// Person.prototype = {
+		// 	constructor: Person,
+		// 	sayName: function(){
+		// 		alert(this.name)
+		// 	}
+		// }
+		// var p1 = new Person('wangjian',24,'bailing');
+		// var p2 = new Person('zhangsan',49,'jinling');
+		// p1.friends.push('han');  
+		// alert(p1.friends); //li,zhang,han
+		// alert(p2.friends); //li,zhang
+		// alert(p1.friends == p2.friends); //false
+		// alert(p1.sayName == p2.sayName); //true
+
+
+
+
+
+		// for(var x in document){
+		// 	document.write(x+'<br/>')
+		// }	
+
+
+	</script> -->
+
+	<!-- <image id='img' src="0.png" alt='sfsd'/> -->
+	<div id='lun'>
+		<a href="http://www.baidu.com"><image id='img' src="0.png" alt='sfsd'/></a>
+	</div>
+	<script type="text/javascript">
+		var images = new Array(3);
+		// var links = new Array(3);
+		var index = 0;
+		for(var i=0;i<3;i++){
+			images[i] = new Image();
+			images[i].src = i +'.png';
+		}
+
+
+
+		// console.log(images[2])
+		// switch(i){
+		// 	case 0:
+		// 		links[0] = '<a href="http://www.baidu.com">'+images[0].toString()+'</a>';
+		// 		console.log(links[0].toString())
+		// 	case 1:
+		// 		links[1] = '<a href="http://www.sina.com">'+images[1]+'</a>';
+		// 		console.log(links[1].toString())
+		// 	case 2:
+		// 		links[2] = '<a href="http://www.qq.com">'+images[2]+'</a>';
+		// 		console.log(links[2].toString())
+		// 	default:
+		// 		links[0] = '<a href="http://www.baidu.com">'+images[0]+'</a>';
+		// 		console.log(links[0].toString())
+
+		// }
+
+
+		function show(){
+			document.getElementById('img').src=images[index].src;
+			index = (index+1)%3;
+
+		}
+		window.onload = function(){
+			setInterval('show()',800)
+		}
+	</script>
+</body>
+</html>
